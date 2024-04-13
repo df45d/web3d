@@ -1,0 +1,76 @@
+- ENGINE - 
+
+    - Engine rewrite
+        - Handle Multiple Textures 
+
+    - OBJLoader improvements
+        - Add vertex normals DONE
+        - Add Animations
+        - Add multiple textures in one model
+
+-- GAMEPLAY --
+
+    - Add Gameplay 
+        - Walking on Flat Plane
+        - Third Person Camera 
+        - Terrain generation
+        - Spell Casting
+        - Enemies 
+
+
+--- GRAPHICS -- 
+
+    - Lighting 
+        - PBR 
+            - Normal Mapping DONE
+            - Roughness + Metallic 
+        - SSAO
+        - Shadows
+            - Directional (From Sun)
+                - Cascading Shadow Map
+            - CubeMapped 
+        - Bloom
+
+    - Grass
+        - Engine rewrite for grass shader
+        - Get generation working
+        - Follow Video
+
+    - Fire 
+        - Engine rewrite for Fire
+        - lighting effect
+
+    - Water 
+        - Engine rewrite for Water
+        - Vertex shader 
+        - Fragment Shader
+
+    - Sky Box
+        - Engine rewrite for sky Box DONE
+        - Gradient DONE
+        - Sun DONE
+
+    - Settings
+        - FXAA
+        - Occlusion Culling
+        - LOD
+        - Mipmapping
+        - Linear / Nearest
+        - TAA, MSAA
+        - Texture Quality
+        - Parralax Mapping
+        - Shadow Quality
+    
+    - UI
+        - Sounds
+        - Better menus
+
+---- OPTIONAL ----
+
+    - Clouds
+        - Engine rewrite for Clouds
+        - Shaders 
+        - Volumes existing in the sky
+
+
+
